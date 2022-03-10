@@ -1,4 +1,4 @@
-FROM node:13.14.0-stretch-slim
+FROM node:17.4.0-stretch-slim
 RUN mkdir /home/dvws-node
 WORKDIR /home/dvws-node
 RUN apt-get update && apt-get install -y git python3 build-essential --no-install-recommends
